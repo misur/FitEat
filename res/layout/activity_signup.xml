@@ -1,0 +1,374 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/White"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainColor"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/signupTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/signup_text"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/headlines_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.8" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:gravity="center">
+              <ImageView
+                android:id="@+id/imageViewEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/email"
+                android:layout_marginRight="2dp" />
+
+            <EditText
+                android:id="@+id/emailSingUpEditText"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/border_edit_text"
+                android:gravity="center"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/edit_text_color"
+                android:textColorHint="@color/edit_text_hint_color"
+                android:textSize="@dimen/edit_text_font_size" />
+
+          
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2" >
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/username"
+                android:layout_marginRight="2dp" />
+
+            
+
+            <EditText
+                android:id="@+id/usernameSingUpEditText"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/border_edit_text"
+                android:gravity="center"
+                android:hint="@string/hint_username"
+                android:textColor="@color/edit_text_color"
+                android:textColorHint="@color/edit_text_hint_color"
+                android:textSize="@dimen/edittext_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:gravity="center">
+            
+            <ImageView
+                android:id="@+id/imageViwPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/password"
+                android:layout_marginRight="2dp" />
+
+            <EditText
+                android:id="@+id/passwordSingUpEditText"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/border_edit_text"
+                android:gravity="center"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:textColor="@color/edit_text_color"
+                android:textColorHint="@color/edit_text_hint_color"
+                android:textSize="@dimen/edittext_text_size" />
+        </LinearLayout>
+        
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageViewHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/height"
+                android:layout_marginRight="2dp" />
+
+            <EditText
+                android:id="@+id/heightSingUpEditText"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/border_edit_text"
+                android:ems="11"
+                android:gravity="center"
+                android:hint="@string/hint_height"
+                android:inputType="numberDecimal"
+                android:textColor="@color/edit_text_color"
+                android:textColorHint="@color/edit_text_hint_color"
+                android:textSize="@dimen/edittext_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageViewWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/weight" 
+                android:layout_marginRight="2dp"/>
+
+            <EditText
+                android:id="@+id/weightSingUpEditText"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/border_edit_text"
+                android:gravity="center"
+                android:hint="@string/hint_weight"
+                android:inputType="numberDecimal"
+                android:textColor="@color/edit_text_color"
+                android:textColorHint="@color/edit_text_hint_color"
+                android:textSize="@dimen/edittext_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/buttonMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp" />
+
+                
+
+                <Button
+                    android:id="@+id/buttonFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+            
+            <TextView
+                    android:id="@+id/textViewGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:orientation="horizontal" 
+            android:gravity="center">
+
+            
+            
+            <ImageView
+                android:id="@+id/imageViewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/date" 
+               
+                android:layout_marginLeft="21pt"/>
+            
+            
+            
+              <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <EditText
+                android:id="@+id/daySingUpEditText"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="2pt"
+                android:layout_weight="20"
+                android:background="@drawable/border_edit_text"
+                android:ems="2"
+                android:gravity="center"
+                android:hint="@string/hint_day"
+                android:inputType="number"
+                android:textColor="@color/edit_text_color"
+                android:textColorHint="@color/edit_text_hint_color"
+                android:textSize="@dimen/edittext_text_size" />
+
+            <EditText
+                android:id="@+id/monthSingUpEditText"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="2pt"
+                android:layout_weight="20"
+                android:background="@drawable/border_edit_text"
+                android:ems="2"
+                android:gravity="center"
+                android:hint="@string/hint_month"
+                android:inputType="number"
+                android:textColor="@color/edit_text_color"
+                android:textColorHint="@color/edit_text_hint_color"
+                android:textSize="@dimen/edittext_text_size" />
+
+            <EditText
+                android:id="@+id/yearSingUpEditText"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="2pt"
+                android:layout_marginRight="21pt"
+                android:layout_weight="60"
+                android:background="@drawable/border_edit_text"
+                android:ems="4"
+                android:gravity="center"
+                android:hint="@string/hint_year"
+                android:inputType="number"
+                android:textColor="@color/edit_text_color"
+                android:textColorHint="@color/edit_text_hint_color"
+                android:textSize="@dimen/edittext_text_size" />
+            
+             </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2" >
+        </LinearLayout>
+
+      
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:gravity="center|bottom"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/createAccountButton"
+                android:layout_width="@dimen/button_round_edges_width"
+                android:layout_height="@dimen/button_round_edges_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_round_edges"
+                android:text="@string/signup_text"
+                android:textColor="@color/White"
+                android:textSize="@dimen/button_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.6" >
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

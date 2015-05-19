@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+    <dimen name="button_width">333dp</dimen>
+    <dimen name="button_height">67dp</dimen>
+    <dimen name="ranking_headline_width">280dp</dimen>
+    <dimen name="ranking_headline_height">60dp</dimen>
+    <dimen name="ranking_headline_text_height">30dp</dimen>
+    <dimen name="ranking_headline_padding">25dp</dimen>
+    <dimen name="button_text_size">35dp</dimen>
+    <dimen name="edittext_text_size">25sp</dimen>
+    <dimen name="round_button_width">80dp</dimen>
+    <dimen name="round_button_height">80dp</dimen>
+    <dimen name="headlines_text_width">180dp</dimen>
+    <dimen name="headlines_text_height">68dp</dimen>
+    <dimen name="filter_side_menu_button_width">267dp</dimen>
+    <dimen name="filter_side_menu_button_height">53dp</dimen>
+    <dimen name="filter_side_menu_button_location_width">200dp</dimen>
+    <dimen name="filter_side_menu_button_location_on_off_width">67dp</dimen>
+    <dimen name="filter_side_menu_button_text_size">30sp</dimen>
+    <dimen name="filter_side_menu_text_view_hint_size">25sp</dimen>
+    <dimen name="main_menu_button_text_size">35dp</dimen>
+    <dimen name="main_menu_button_text_padding_left">75dp</dimen>
+    <dimen name="main_menu_button_text_padding_right">5dp</dimen>
+    <dimen name="sliding_menu_game_button_width">300dp</dimen>
+    <dimen name="sliding_menu_game_button_height">44.5dp</dimen>
+    <dimen name="sliding_menu_game_button_hybrid_width">250dp</dimen>
+    <dimen name="sliding_menu_game_button_hybrid_on_off_width">50dp</dimen>
+    <dimen name="sliding_menu_game_button_text_size">22dp</dimen>
+    <dimen name="sliding_menu_game_button_text_padding_left">55dp</dimen>
+    <dimen name="sliding_menu_game_button_text_padding_right">5dp</dimen>
+
+    <!-- FitEat -->
+    <dimen name="button_round_edges_width"> 280dp</dimen>
+    <dimen name="button_round_edges_height"> 80dp</dimen>
+    <dimen name="meal_item_height"> 100dp</dimen>
+    <dimen name="list_devider_height"> 25dp</dimen>
+    <dimen name="headlines_text_size">48dp</dimen>
+    <dimen name="edit_text_width">320dp</dimen>
+    <dimen name="edit_text_height">67dp</dimen>
+    <dimen name="edit_text_font_size">25dp</dimen>
+    <dimen name="notification_font_size">30dp</dimen>
+    <dimen name="meal_values_font_size">28dp</dimen>
+    <dimen name="calories_font_size">20dp</dimen>
+    <dimen name="meal_name_font_size">28dp</dimen>
+    <dimen name="calories_view_font_size">20dp</dimen>
+    <dimen name="calories_view_calories_font_size">30dp</dimen>
+    <dimen name="calories_view_padding_size">25dp</dimen>
+    <dimen name="calories_view_button_width"> 140dp</dimen>
+    <dimen name="calories_view_button_height"> 70dp</dimen>
+    <dimen name="calories_view_button_text_size"> 27dp</dimen>
+     <dimen name="slider_padding">45dp</dimen>
+    <dimen name="daymonth">70dp</dimen>
+    <dimen name="year">170dp</dimen>
+    <dimen name="restaurant_Logo_size">175dp</dimen>
+
+</resources>
